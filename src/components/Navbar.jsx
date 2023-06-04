@@ -7,9 +7,9 @@ const Navbar = () => {
     <>
       <div className="flex justify-between">
 
-        <div className="font-bold text-2xl">
+        <button className="font-bold text-2xl">
           JURIDENT    
-        </div> 
+        </button> 
 
         <div className="flex md:space-x-36">
 
