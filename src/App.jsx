@@ -1,20 +1,16 @@
 import React from "react"
 import Navbar from "./components/Navbar"
-import Aboutus from "./components/Aboutus"
+import AboutusBox from "./components/AboutusBox"
+import About_Us_Page from "./components/About_Us_Page"
 
 function App() {
 
 
   return (
     <>
-      <nav className="ml-28 mt-16">
-        <Navbar />
-      </nav>
 
-      <div className="float-right mr-[12%] mt-[4%]">
-        <Aboutus />
-      </div>
-
+      <About_Us_Page />
+      
     </>
   )
 

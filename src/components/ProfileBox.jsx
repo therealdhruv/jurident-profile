@@ -1,15 +1,23 @@
 import React from "react";
 import { useState } from "react";
 import ReactSwitch from "react-switch";
+
+
+
+
 const ProfileBox = () => {
+
+
   const [checkedTheme, setTheme] = useState(false);
   const [checkedNotification, setNotification] = useState(false);
   const handleChangeMode = (val) => {
     setTheme(val);
   };
+
   const handleChangeNotification = (val) => {
     setNotification(val);
   };
+
   const handleLogout = () => {
     // Handle form submission logic here
     console.log("Logout");
@@ -90,7 +98,10 @@ const ProfileBox = () => {
         </button>
       </div>
     </div>
+    
   );
+
+
 };
 
 export default ProfileBox;

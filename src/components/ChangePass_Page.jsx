@@ -1,6 +1,6 @@
 import React from "react";
 import FormChangePassword from "./ChangePassBox";
-import Profile from "./ProfileBox";
+import ProfileBox from "./ProfileBox";
 const ChangePass_Page = () => {
   return (
     <>
@@ -9,7 +9,7 @@ const ChangePass_Page = () => {
       </header>
       <div className="flex w-screen space-x-20 justify-center">
         <div className="w-3/10">
-          <Profile />
+          <ProfileBox />
         </div>
         <div className="w-7/10 ">
           <FormChangePassword />
